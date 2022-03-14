@@ -1,0 +1,112 @@
+.simpleslide100-parent {
+  position: relative;
+  z-index: 1;
+}
+
+.simpleslide100 {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.simpleslide100-item {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.m2-txt1 {
+  font-family: Poppins-Regular;
+  font-size: 24px;
+  color: #999;
+  line-height: 1.2;
+}
+
+.size1 {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wsize1 {
+  width: 50%;
+}
+
+.wsize2 {
+  max-width: 100%;
+}
+
+.bg0 {
+  background-color: #fff;
+}
+
+.bg-img1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay1 {
+  position: relative;
+  z-index: 1;
+}
+.overlay1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.wrappic1 {
+  display: block;
+}
+
+.wrappic1 img {
+  max-width: 30%;
+}
+
+@media (max-width: 1200px) {
+  .respon1 {
+    width: 60%;
+  }
+
+  .respon2 {
+    width: 40%;
+  }
+}
+
+@media (max-width: 992px) {
+  .respon1 {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .respon2 {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+  .respon3 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+}
